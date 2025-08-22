@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 function Loader({ onComplete = () => {} }) {
   const [stage, setStage] = useState(0);
-  const letters = ["V", "E", "R", "S", "E"];
+  const letters = ["Q", "u", "a", "n", "t", "u", "m", "X"];
 
   useEffect(() => {
     const sequence = async () => {
@@ -49,7 +49,7 @@ function Loader({ onComplete = () => {} }) {
         )}
       </AnimatePresence>
 
-      <motion.div
+      {/* <motion.div
         className="absolute z-10 w-20 h-20"
         initial={{ scale: 0.5, y: 200 }}
         animate={stage >= 1 ? {
@@ -65,14 +65,14 @@ function Loader({ onComplete = () => {} }) {
         } : {}}
       >
         <img
-          src="/assets/silvertradeverse.png"
+          src="/assets/whitequantum.png"
           alt="TV Logo"
           className="w-full h-full object-contain"
         />
-      </motion.div>
+      </motion.div> */}
 
       <motion.div
-        className="flex items-center gap-3 "
+        className="flex items-center gap- -m-1 "
         initial={{ opacity: 0 }}
         animate={stage >= 3 ? { opacity: 1 } : {}}
       >
@@ -80,7 +80,7 @@ function Loader({ onComplete = () => {} }) {
           <motion.span
             key={index}
             className="text-5xl font-bold tracking-tight"
-            style={{ color: "#515151" }}
+            style={{ color: "white" }}
             initial={{ y: 30, opacity: 0 }}
             animate={stage >= 3 ? {
               y: 0,

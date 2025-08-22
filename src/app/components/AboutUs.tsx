@@ -21,7 +21,7 @@ export default function AboutUs() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold">Who we are?</h2>
               <p className="text-gray-300 text-sm w-3/4">
-                Trade Verse is a next-gen community bridging Blockchain, Web3, DeFi and Finance.
+                We are community builders—a group of innovators, Developers and Traders who believe in creating together. Each member brings unique skills, and together we form a strong, future-ready network.
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function AboutUs() {
                 Our Vision and Mission?
               </h2>
               <p className="text-gray-700 text-sm">
-                At TradeVerse, our vision is to redefine the future of finance by bridging Blockchain, Web3, and DeFi into a unified ecosystem. Our mission is to simplify complex digital domains, enable collaborative growth, and empower individuals with actionable insights, real-world applications, and industry-driven knowledge.
+                Our aim is to build a global talent hub where technology and finance connect. Our vision is to be a leading ecosystem of innovation and collaboration. Our mission is to unite talented people, spark new ideas, and co-create projects that shape the future.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function AboutUs() {
             <div className="space-y-2">
               <h2 className="text-2xl font-bold text-black">Why Choose Us?</h2>
               <p className="text-gray-700 text-sm w-3/4">
-                We are more than a community — we are a catalyst for transformation. TradeVerse stands out by combining education, innovation, and collaboration, ensuring that members gain practical exposure, build meaningful connections, and stay ahead in the rapidly evolving digital economy.
+                Because QuantumX is not about learning—it’s about building. Here, you don’t just join a group, you join a movement of creators and innovators shaping tomorrow’s world.
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function AboutUs() {
               <div className="space-y-2">
                 <h2 className="text-2xl font-bold text-black">What we do?</h2>
                 <p className="text-gray-700 text-sm">
-                 We are more than a community — we are a catalyst for transformation. TradeVerse stands out by combining education, innovation, and collaboration, ensuring that members gain practical exposure, build meaningful connections, and stay ahead in the rapidly evolving digital economy.
+                We connect skilled people. Developers, traders, and blockchain builders collaborate, share ideas, and create together. QuantumX is the place where talent meets opportunity
                 </p>
               </div>
             </div>

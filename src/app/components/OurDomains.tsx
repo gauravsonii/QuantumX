@@ -27,7 +27,7 @@ const OurDomains: React.FC = () => {
       <div className="relative z-20 text-center">
         <h2 className="text-3xl md:text-4xl xl:text-5xl font-albert mb-4">Our Domains</h2>
         <p className="text-lg md:text-xl xl:text-2xl font-albert mt-4 max-w-3xl mx-auto p-8 md:p-12">
-          Explore diverse technical domains at TradeVerse, including Blockchain, web and app development, AI/ML, Defi and more
+          Explore diverse technical domains at QuantumX, including Blockchain, web and app development, AI/ML, Defi and more
           empowering members to innovate and excel in the ever-evolving tech landscape.
         </p>
       </div>

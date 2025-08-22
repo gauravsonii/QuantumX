@@ -24,22 +24,20 @@ const Herosection = () => {
         >
           <motion.h1
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-2 px-4 sm:px-0 text-white"
-            style={{ scale, opacity }}
-          >
-            Introducing Trade Verse,
+            style={{ scale, opacity }}>
+            Introducing QuantumX
           </motion.h1>
 
-          <motion.h1
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 px-4 sm:px-0 text-white"
-            style={{ scale, opacity }}
-          >
-            Where DeFi meets fucture tech
-          </motion.h1>
+          <p>
+            <i>
+            Building a global ecosystem of <b>Web3, Finance & Development innovators</b>.
+            </i>
+          </p>
 
           {/* Logo */}
           <motion.img
-            src="/assets/tradeverse.jpg"
-            alt="tradeverse Logo"
+            src="/assets/quantumx.jpg"
+            alt="QuantumX Logo"
             className="mx-auto w-3/4 sm:w-1/2 lg:w-1/4 xl:w-1/5 mt-4"
             style={{ scale, opacity }}
           />
@@ -51,7 +49,9 @@ const Herosection = () => {
           <div className="text-center">
             <h2 className="text-4xl font-bold mb-4">Empowering Innovation</h2>
             <p className="text-lg max-w-2xl mx-auto">
-              TradeVerse drives innovation by bridging Blockchain, Web3, DeFi, and Finance, inspiring members to explore, collaborate, and create impactful solutions for the rapidly evolving digital ecosystem.
+              <i>
+              At QuantumX, we believe true progress comes when talent meets opportunity. Our ecosystem is built to empower innovation by uniting skilled minds from Web3, Finance, and Development. Here, ideas don’t stay on paper—they transform into real solutions through collaboration, creativity, and collective strength. We don’t teach, we don’t follow—we build, disrupt, and empower the future together.
+              </i>
             </p>
           </div>
         </div>

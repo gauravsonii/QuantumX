@@ -16,13 +16,13 @@ const Navbar = () => {
       {/* Logo Section */}
       <div className="flex items-center">
         <Image
-          src="/assets/tradeverse.jpg"
-          alt="TradeVerse"
+          src="/assets/quantumx.jpg"
+          alt="QuantumX"
           width={48}
           height={48}
           className="object-contain w-12"
         />
-        <span className="ml-2 text-xl font-bold">Trade Verse</span>
+        <span className="ml-2 text-xl font-bold">QuantumX</span>
       </div>
 
       {/* Hamburger Icon for Mobile */}
@@ -37,22 +37,22 @@ const Navbar = () => {
         <ul className="pt-4 text-base sm:flex sm:justify-between sm:pt-0">
           <li className="sm:mx-4">
             <a href="#home" className="text-white hover:text-cyan-300">
-              Home
+              HOME
             </a>
           </li>
           <li className="sm:mx-4">
             <a href="#about" className="text-white hover:text-cyan-300">
-              About
+              ABOUT
             </a>
           </li>
           <li className="sm:mx-4">
             <a href="#domains" className="text-white hover:text-cyan-300">
-              Domains
+              DOMAINS
             </a>
           </li>
           <li className="sm:ml-4 mr-2">
             <a href="#contact" className="text-white hover:text-cyan-300">
-              Contact
+              CONTACT
             </a>
           </li>
           <div>
