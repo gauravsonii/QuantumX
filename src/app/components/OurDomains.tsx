@@ -1,4 +1,4 @@
-"use-client"
+"use client"
 import React from "react";
 import Image from "next/image";
 const CoreExpertise = "/assets/core-expertise.png"; // Direct path
@@ -22,7 +22,7 @@ const OurDomains: React.FC = () => {
   ];
 
   return (
-    <div className="relative min-h-screen bg-black text-white flex flex-col items-center py-16">
+    <div className="relative min-h-screen bg-black text-white flex flex-col items-center py-16 pb-32 md:pb-56 lg:pb-72 overflow-hidden">
       {/* Header */}
       <div className="relative z-20 text-center">
         <h2 className="text-3xl md:text-4xl xl:text-5xl font-albert mb-4">Our Domains</h2>
@@ -38,9 +38,9 @@ const OurDomains: React.FC = () => {
         <Image
           src={CoreExpertise}
           alt="Centered Image"
-          layout="fill"
-          objectFit="contain"
-          className="pointer-events-none"
+          fill
+          sizes="100vw"
+          className="pointer-events-none object-contain"
         />
       </div>
       

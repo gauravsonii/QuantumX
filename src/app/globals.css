@@ -5,6 +5,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Sticky cards layout variables */
+  --navbar-height: 64px;
+  --padding-md: 16px;
+  --padding-base: 12px;
+  --radius-4xl: 2rem;
+  /* Easing variables used by the hero interlude */
+  --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-out-cubic: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-in-cubic: cubic-bezier(0.32, 0, 0.67, 0);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,3 +30,43 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   
 }
+
+/* ---------- Utilities for the Insights section ---------- */
+/* Smooth transitions for colors, borders, fills */
+.transition-mode {
+  transition-property: color, background-color, border-color, fill, stroke, opacity;
+  transition-duration: 400ms;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Smooth transform transitions */
+.transition-move {
+  transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+/* Header slide-in behavior, driven by the .visible class on the section */
+#solutions-insights-inner .slide-in {
+  transform: translateX(50vw);
+}
+
+#solutions-insights-inner.visible .slide-in {
+  transform: translateX(0);
+}
+
+/* ---------- Additional utilities ---------- */
+.h-svh { height: 100svh; }
+.rounded-4xl { border-radius: var(--radius-4xl); }
+.p-md { padding: var(--padding-md); }
+.gap-md { gap: 1rem; }
+.gap-base { gap: 0.75rem; }
+
+/* easing helpers as CSS variables are already in :root; we expose classes for use in inline styles if needed */
+.ease-out-quart { transition-timing-function: var(--ease-out-quart); }
+.ease-out-cubic { transition-timing-function: var(--ease-out-cubic); }
+.ease-in-cubic { transition-timing-function: var(--ease-in-cubic); }
+.ease-in-out-quart { transition-timing-function: var(--ease-in-out-quart); }
+
+/* HUD loaded state fades in */
+.hud-videos { transition: opacity 1000ms var(--ease-out-cubic) 2000ms; }
+.hud-videos.loaded { opacity: 1; }

@@ -20,7 +20,7 @@ export default function Joincodenex() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-white px-5 pt-20">
+    <div className="flex justify-center items-center min-h-screen bg-black px-5 pt-20">
       <main className="w-full max-w-5xl bg-[#ffcf52] mb-10 lg:mt-24 rounded-[50px] shadow-lg p-10 flex flex-col md:flex-row items-center gap-10">
         <div className="max-w-lg w-full text-center md:text-left">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">

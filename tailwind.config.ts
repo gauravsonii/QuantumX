@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         limeCustom:"#CBF48F",
+        dark: "#0a0a0a",
       },
     },
   },

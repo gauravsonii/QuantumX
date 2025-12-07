@@ -1,0 +1,13 @@
+<svg width="201" height="200" viewBox="0 0 201 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Vrstva_1" clip-path="url(#clip0_5407_4346)">
+<path id="Vector" d="M100.422 0C100.422 27.6148 89.2275 52.6138 71.1333 70.7105C53.0364 88.8071 28.0345 99.9987 0.421875 99.9987V29.9122L30.3344 0H100.422Z" fill="black"/>
+<path id="Vector_2" d="M0.421875 100H100.422C100.422 155.193 55.6131 200.001 0.421875 200.001V100.003V100Z" fill="black"/>
+<path id="Vector_3" d="M100.422 0H200.422C200.422 55.1905 155.613 99.9987 100.422 99.9987V0Z" fill="black"/>
+<path id="Vector_4" d="M100.422 100H200.422C200.422 155.191 155.613 199.999 100.422 199.999V100Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_5407_4346">
+<rect width="200" height="200" fill="white" transform="translate(0.421875)"/>
+</clipPath>
+</defs>
+</svg>

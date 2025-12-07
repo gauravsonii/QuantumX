@@ -1,7 +1,10 @@
+'use client';
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
-function Loader({ onComplete = () => {} }) {
+type LoaderProps = { onComplete?: () => void };
+
+function Loader({ onComplete = () => {} }: LoaderProps) {
   const [stage, setStage] = useState(0);
   const letters = ["V", "E", "R", "S", "E"];
 
